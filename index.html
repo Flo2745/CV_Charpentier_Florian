@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Florian Charpentier</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(to right, #f8f8f8, #eaeaea);
+      color: #333;
+      animation: fadeIn 1s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 40px auto;
+      background-color: #fff;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .left {
+      width: 35%;
+      background-color: #2f3542;
+      color: #fff;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .right {
+      width: 65%;
+      padding: 40px;
+      animation: slideIn 0.8s ease-in-out;
+    }
+
+    @keyframes slideIn {
+      from { transform: translateX(50px); opacity: 0; }
+      to { transform: translateX(0); opacity: 1; }
+    }
+
+    h1 {
+      font-size: 22px;
+      margin-bottom: 5px;
+      color: #fff;
+    }
+
+    h2 {
+      font-size: 14px;
+      font-weight: 400;
+      margin-bottom: 30px;
+      color: #dfe4ea;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin-top: 30px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 5px;
+      color: #2f3542;
+    }
+
+    .left h3 {
+      color: #fff;
+      border-color: #57606f;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+
+    .section {
+      margin-bottom: 25px;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job h4 {
+      margin: 5px 0 10px;
+      font-weight: 700;
+      color: #1e272e;
+    }
+
+    .job span {
+      font-size: 13px;
+      font-style: italic;
+      display: block;
+      margin-bottom: 5px;
+      color: #57606f;
+    }
+
+    .job p {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .label {
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+
+      .left, .right {
+        width: 100%;
+      }
+
+      .right {
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <div>
+        <h1>CHARPENTIER FLORIAN</h1>
+        <h2>Développeur & Consultant Digital</h2>
+
+        <div class="section">
+          <h3>Contact</h3>
+          <ul>
+            <li>📞 07.87.75.41.70</li>
+            <li>📧 charpentierflorianmeven@gmail.com</li>
+            <li>🌐 <a href="https://satysfyingshapessound2.wordpress.com/">Mon site web</a></li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Compétences</h3>
+          <ul>
+            <li>HTML & CSS, C++, SFML, BOX2D</li>
+            <li>Montage vidéo : DaVinci Resolve</li>
+            <li>Outils SaaS & DAP : WhatFix</li>
+            <li>SEO & Optimisation Web</li>
+            <li>Social media & marketing automation</li>
+            <li>IA, automatisation, e-commerce</li>
+            <li>Suite Adobe, gestion de projet</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Langues</h3>
+          <ul>
+            <li>Français : langue maternelle</li>
+            <li>Anglais : niveau B2</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Études</h3>
+          <ul>
+            <li>Master Communication & Marketing Digital (2021 - 2024)</li>
+            <li>BTS Négociation & Digitalisation (2019 - 2021)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="section">
+        <h3>Profil</h3>
+        <p>Passionné par la transformation digitale et la création de contenus interactifs, je mets à profit mon expertise technique et créative pour accompagner efficacement l’adoption de solutions SaaS. Je maîtrise la gestion de projets digitaux, l’UX, l’automatisation et l’utilisation avancée d’outils de type DAP comme WhatFix.</p>
+      </div>
+
+      <div class="section">
+        <h3>Expérience</h3>
+
+        <div class="job">
+          <h4>Domaine For Rest - Airbnb (Nov 2024 - Aujourd'hui)</h4>
+          <span>Chargé de marketing & Adoption Digitale</span>
+          <p>- Création de tutoriels, workflows interactifs et guides clients<br>
+             - Formation des équipes internes à l’outil WhatFix<br>
+             - Amélioration continue des parcours utilisateurs</p>
+        </div>
+
+        <div class="job">
+          <h4>Stelvision - Vente de télescopes (Sept 2022 - Oct 2024)</h4>
+          <span>Chargé de marketing & communication digitale</span>
+          <p>- Création de contenus pédagogiques et promotionnels<br>
+             - Configuration d’outils digitaux (segmentation, déclencheurs)<br>
+             - Veille digitale et innovation UX<br>
+             - SEO avancé, rédaction optimisée, +151 % trafic organique<br>
+             - ROI pub : +125 %, +123 % de leads qualifiés</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
